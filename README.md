@@ -13,4 +13,7 @@ This package (named **latlong_utm**) has four nodes: **lattoutm**, **utmtolat**,
 
 utm coordinates consist of easting (x), northing (y), zone number and zone letter. For more information, check out the [github repo](https://github.com/Turbo87/utm) of the library we used for data conversion
 
-Command to run a node: ros2 run latlong_utm *node_name*
+Command to run a node:
+```shell
+ros2 run latlong_utm node_name
+```
