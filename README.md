@@ -3,9 +3,9 @@
 
 This package (named **latlong_utm**) has four nodes: **lattoutm**, **utmtolat**, **latlonpub** and **utmpub**
 
-1. **lattoutm** takes in lat-lon coordinates, converts them into utm coordinates and publishes them to topic1
+1. **lattoutm** takes in lat-lon coordinates (from topic2), converts them into utm coordinates and publishes them to topic1
 
-2. **utmtolat** takes in utm coordinates, converts them into lat-lon coordinates and publishes them to topic2
+2. **utmtolat** takes in utm coordinates (from topic1), converts them into lat-lon coordinates and publishes them to topic2
 
 3. **latlonpub** publishes (to topic2 ) a few lat-lon coordinates for conversion into utm
 
